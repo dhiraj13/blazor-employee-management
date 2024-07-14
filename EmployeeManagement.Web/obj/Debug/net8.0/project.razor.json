@@ -87,6 +87,43 @@
         }
       },
       {
+        "HashCode": 1917502412,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Pages.EmployeeListBase",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeListBase"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.EmployeeListBase",
+          "Common.TypeNameIdentifier": "EmployeeListBase",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 903183508,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Pages.EmployeeListBase",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManagement.Web.Components.Pages.EmployeeListBase"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.EmployeeListBase",
+          "Common.TypeNameIdentifier": "EmployeeListBase",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 845244797,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Components.Pages.EmployeeList",
@@ -156,6 +193,43 @@
           "Common.TypeName": "EmployeeManagement.Web.Components.Routes",
           "Common.TypeNameIdentifier": "Routes",
           "Common.TypeNamespace": "EmployeeManagement.Web.Components",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 913441904,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Layout.NavMenu",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Layout.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Layout",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1824624790,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Layout.NavMenu",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManagement.Web.Components.Layout.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Layout.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Layout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -264,43 +338,6 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 913441904,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Layout.NavMenu",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Layout.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Layout",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1824624790,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Layout.NavMenu",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManagement.Web.Components.Layout.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Layout.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Layout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
         }
       },
       {

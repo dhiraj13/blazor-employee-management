@@ -7,14 +7,15 @@ namespace EmployeeManagement.Web.Components.Pages
   {
     public IEnumerable<Employee> Employees { get; set; }
 
-    protected override Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-      LoadEmployees();
-      return base.OnInitializedAsync();
+      await LoadEmployeesAsync();
     }
 
-    private void LoadEmployees()
+    private async Task LoadEmployeesAsync()
     {
+      await Task.Delay(2000);
+
       Employee e1 = new Employee
       {
         EmployeeId = 1,
@@ -23,7 +24,7 @@ namespace EmployeeManagement.Web.Components.Pages
         Email = "David@pragimtech.com",
         DateOfBirth = new DateTime(1980, 10, 5),
         Gender = Gender.Male,
-        Department = new Department { DepartmentId = 1, DepartmentName = "IT" },
+        DepartmentId = 1,
         PhotoPath = "images/john.png"
       };
 
@@ -35,7 +36,7 @@ namespace EmployeeManagement.Web.Components.Pages
         Email = "Sam@pragimtech.com",
         DateOfBirth = new DateTime(1981, 12, 22),
         Gender = Gender.Male,
-        Department = new Department { DepartmentId = 2, DepartmentName = "HR" },
+        DepartmentId = 2,
         PhotoPath = "images/sam.jpg"
       };
 
@@ -47,7 +48,7 @@ namespace EmployeeManagement.Web.Components.Pages
         Email = "mary@pragimtech.com",
         DateOfBirth = new DateTime(1979, 11, 11),
         Gender = Gender.Female,
-        Department = new Department { DepartmentId = 1, DepartmentName = "IT" },
+        DepartmentId = 3,
         PhotoPath = "images/mary.png"
       };
 
@@ -59,7 +60,7 @@ namespace EmployeeManagement.Web.Components.Pages
         Email = "sara@pragimtech.com",
         DateOfBirth = new DateTime(1982, 9, 23),
         Gender = Gender.Female,
-        Department = new Department { DepartmentId = 3, DepartmentName = "Payroll" },
+        DepartmentId = 4,
         PhotoPath = "images/sara.png"
       };
 

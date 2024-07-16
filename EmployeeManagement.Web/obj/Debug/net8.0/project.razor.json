@@ -146,7 +146,7 @@
         }
       },
       {
-        "HashCode": 1498321364,
+        "HashCode": -1014613317,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Components.Pages.DisplayEmployeeBase",
         "AssemblyName": "EmployeeManagement.Web",
@@ -174,6 +174,16 @@
               "Common.PropertyName": "ShowFooter",
               "Common.GloballyQualifiedTypeName": "global::System.Boolean"
             }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeSelection",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeSelection",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
@@ -184,7 +194,7 @@
         }
       },
       {
-        "HashCode": 793629168,
+        "HashCode": 898182915,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Components.Pages.DisplayEmployeeBase",
         "AssemblyName": "EmployeeManagement.Web",
@@ -211,6 +221,16 @@
             "Metadata": {
               "Common.PropertyName": "ShowFooter",
               "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeSelection",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeSelection",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
             }
           }
         ],
@@ -282,6 +302,103 @@
         }
       },
       {
+        "HashCode": -1661769914,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Pages.DisplayEmployee",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DisplayEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Employee",
+            "TypeName": "EmployeeManagement.Models.Employee",
+            "Metadata": {
+              "Common.PropertyName": "Employee",
+              "Common.GloballyQualifiedTypeName": "global::EmployeeManagement.Models.Employee"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowFooter",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowFooter",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeSelection",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeSelection",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.DisplayEmployee",
+          "Common.TypeNameIdentifier": "DisplayEmployee",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1361177245,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Pages.DisplayEmployee",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManagement.Web.Components.Pages.DisplayEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Employee",
+            "TypeName": "EmployeeManagement.Models.Employee",
+            "Metadata": {
+              "Common.PropertyName": "Employee",
+              "Common.GloballyQualifiedTypeName": "global::EmployeeManagement.Models.Employee"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowFooter",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowFooter",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeSelection",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeSelection",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.DisplayEmployee",
+          "Common.TypeNameIdentifier": "DisplayEmployee",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -564328251,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Components.Pages.EmployeeList",
@@ -313,83 +430,6 @@
         "Metadata": {
           "Common.TypeName": "EmployeeManagement.Web.Components.Pages.EmployeeList",
           "Common.TypeNameIdentifier": "EmployeeList",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -255460375,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Pages.DisplayEmployee",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DisplayEmployee"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Employee",
-            "TypeName": "EmployeeManagement.Models.Employee",
-            "Metadata": {
-              "Common.PropertyName": "Employee",
-              "Common.GloballyQualifiedTypeName": "global::EmployeeManagement.Models.Employee"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ShowFooter",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "ShowFooter",
-              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.DisplayEmployee",
-          "Common.TypeNameIdentifier": "DisplayEmployee",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 548975072,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Pages.DisplayEmployee",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManagement.Web.Components.Pages.DisplayEmployee"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Employee",
-            "TypeName": "EmployeeManagement.Models.Employee",
-            "Metadata": {
-              "Common.PropertyName": "Employee",
-              "Common.GloballyQualifiedTypeName": "global::EmployeeManagement.Models.Employee"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ShowFooter",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "ShowFooter",
-              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.DisplayEmployee",
-          "Common.TypeNameIdentifier": "DisplayEmployee",
           "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"

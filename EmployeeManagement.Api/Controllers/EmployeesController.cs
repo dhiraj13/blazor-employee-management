@@ -40,7 +40,7 @@ namespace EmployeeManagement.Api.Controllers
     }
 
     [HttpGet]
-    public async Task<ActionResult> GetEmployees()
+    public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
     {
       try
       {

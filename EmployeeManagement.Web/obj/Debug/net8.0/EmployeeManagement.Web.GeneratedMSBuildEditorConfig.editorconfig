@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9EaXNwbGF5RW1wbG95ZWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/Components/Pages/EditEmployee.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FZGl0RW1wbG95ZWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/Components/Pages/EmployeeDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FbXBsb3llZURldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

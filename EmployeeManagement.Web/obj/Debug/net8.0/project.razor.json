@@ -50,43 +50,6 @@
         }
       },
       {
-        "HashCode": -688988207,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Pages.Error",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Error"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.Error",
-          "Common.TypeNameIdentifier": "Error",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1490723264,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Pages.Error",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManagement.Web.Components.Pages.Error"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.Error",
-          "Common.TypeNameIdentifier": "Error",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 784526218,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Components.Pages.EmployeeDetailsBase",
@@ -183,6 +146,43 @@
         }
       },
       {
+        "HashCode": -688988207,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Pages.Error",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Error"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.Error",
+          "Common.TypeNameIdentifier": "Error",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1490723264,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Pages.Error",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManagement.Web.Components.Pages.Error"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.Error",
+          "Common.TypeNameIdentifier": "Error",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -515270125,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Components.Pages.EmployeeDetails",
@@ -237,43 +237,6 @@
           "Common.TypeName": "EmployeeManagement.Web.Components.Pages.EmployeeDetails",
           "Common.TypeNameIdentifier": "EmployeeDetails",
           "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -912157713,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.App",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1192736023,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.App",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManagement.Web.Components.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -454,6 +417,43 @@
           "Common.TypeName": "EmployeeManagement.Web.Components.Layout.NavMenu",
           "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "EmployeeManagement.Web.Components.Layout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -912157713,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.App",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1192736023,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.App",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManagement.Web.Components.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }

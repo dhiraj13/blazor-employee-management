@@ -1,8 +1,5 @@
-using System;
-using System.Threading.Tasks;
 using EmployeeManagement.Api.Models;
 using EmployeeManagement.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.Api.Controllers

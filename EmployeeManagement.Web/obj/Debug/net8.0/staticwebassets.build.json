@@ -1,17 +1,36 @@
 {
   "Version": 1,
-  "Hash": "bSUKQIJznwWRykXtuQBDWyIH311fIKsNHWUl94J1qRg=",
+  "Hash": "gM9dHfYMlTyv+UaJZFJuRUv7Is6+wc+unYB1/omQsWU=",
   "Source": "EmployeeManagement.Web",
   "BasePath": "_content/EmployeeManagement.Web",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/MSRD.Components.csproj",
+      "Version": 2,
+      "Source": "MSRD.Components",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "EmployeeManagement.Web/wwwroot",
       "Source": "EmployeeManagement.Web",
       "ContentRoot": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/wwwroot/",
       "BasePath": "_content/EmployeeManagement.Web",
+      "Pattern": "**"
+    },
+    {
+      "Name": "MSRD.Components/wwwroot",
+      "Source": "MSRD.Components",
+      "ContentRoot": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/wwwroot/",
+      "BasePath": "_content/MSRD.Components",
       "Pattern": "**"
     }
   ],
@@ -205,6 +224,63 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/sara.png"
+    },
+    {
+      "Identity": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/obj/Debug/net8.0/scopedcss/projectbundle/MSRD.Components.bundle.scp.css",
+      "SourceId": "MSRD.Components",
+      "SourceType": "Project",
+      "ContentRoot": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "BasePath": "_content/MSRD.Components",
+      "RelativePath": "MSRD.Components.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/obj/Debug/net8.0/scopedcss/projectbundle/MSRD.Components.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/wwwroot/background.png",
+      "SourceId": "MSRD.Components",
+      "SourceType": "Project",
+      "ContentRoot": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/wwwroot/",
+      "BasePath": "_content/MSRD.Components",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/background.png"
+    },
+    {
+      "Identity": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/wwwroot/exampleJsInterop.js",
+      "SourceId": "MSRD.Components",
+      "SourceType": "Project",
+      "ContentRoot": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/wwwroot/",
+      "BasePath": "_content/MSRD.Components",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/exampleJsInterop.js"
     }
   ]
 }

@@ -1,3 +1,4 @@
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/MSRD.Components.staticwebassets.runtime.json
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/appsettings.Development.json
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/appsettings.json
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/EmployeeManagement.Web.staticwebassets.runtime.json
@@ -6,8 +7,19 @@
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/EmployeeManagement.Web.runtimeconfig.json
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/EmployeeManagement.Web.dll
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/EmployeeManagement.Web.pdb
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Authorization.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Components.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Forms.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Web.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Metadata.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.JSInterop.dll
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/EmployeeManagement.Models.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/MSRD.Components.dll
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/EmployeeManagement.Models.pdb
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/MSRD.Components.pdb
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/obj/Debug/net8.0/EmployeeManagement.Web.csproj.AssemblyReference.cache
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/obj/Debug/net8.0/EmployeeManagement.Web.GeneratedMSBuildEditorConfig.editorconfig
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/obj/Debug/net8.0/EmployeeManagement.Web.AssemblyInfoInputs.cache

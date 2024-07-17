@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/MSRD.Components.props" />
+</Project>

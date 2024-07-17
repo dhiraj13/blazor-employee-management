@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmployeeManagement.Models\EmployeeManagement.Models.csproj" />
+    <ProjectReference Include="..\MSRD.Components\MSRD.Components.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/obj/Debug/net8.0/scopedcss/projectbundle/MSRD.Components.bundle.scp.css",
+      "PackagePath": "staticwebassets/MSRD.Components.bundle.scp.css"
+    },
+    {
+      "Id": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/wwwroot/background.png",
+      "PackagePath": "staticwebassets/background.png"
+    },
+    {
+      "Id": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/MSRD.Components/wwwroot/exampleJsInterop.js",
+      "PackagePath": "staticwebassets/exampleJsInterop.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MSRD.Components.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MSRD.Components.props",
+      "PackagePath": "build\\MSRD.Components.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MSRD.Components.props",
+      "PackagePath": "buildMultiTargeting\\MSRD.Components.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MSRD.Components.props",
+      "PackagePath": "buildTransitive\\MSRD.Components.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

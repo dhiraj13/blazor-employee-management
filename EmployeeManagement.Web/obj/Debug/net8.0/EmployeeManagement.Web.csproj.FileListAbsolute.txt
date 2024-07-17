@@ -43,3 +43,4 @@
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/obj/Debug/net8.0/EmployeeManagement.Web.pdb
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/obj/Debug/net8.0/EmployeeManagement.Web.genruntimeconfig.cache
 /home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/obj/Debug/net8.0/ref/EmployeeManagement.Web.dll
+/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll

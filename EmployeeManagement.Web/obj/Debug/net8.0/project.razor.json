@@ -265,6 +265,43 @@
         }
       },
       {
+        "HashCode": 1743748118,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Pages.Error",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Error"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.Error",
+          "Common.TypeNameIdentifier": "Error",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1668572244,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Pages.Error",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManagement.Web.Components.Pages.Error"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.Error",
+          "Common.TypeNameIdentifier": "Error",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": -268558601,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Components.Pages.DisplayEmployee",
@@ -458,43 +495,6 @@
         }
       },
       {
-        "HashCode": 1743748118,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Pages.Error",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Error"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.Error",
-          "Common.TypeNameIdentifier": "Error",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1668572244,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Pages.Error",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManagement.Web.Components.Pages.Error"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Pages.Error",
-          "Common.TypeNameIdentifier": "Error",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -2026110595,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Components.Pages.EditEmployee",
@@ -554,43 +554,6 @@
         }
       },
       {
-        "HashCode": -796684623,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.App",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1123392221,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.App",
-        "AssemblyName": "EmployeeManagement.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManagement.Web.Components.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -26262214,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Components.Routes",
@@ -623,6 +586,43 @@
           "Common.TypeName": "EmployeeManagement.Web.Components.Routes",
           "Common.TypeNameIdentifier": "Routes",
           "Common.TypeNamespace": "EmployeeManagement.Web.Components",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1840150624,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Layout.NavMenu",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Layout.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Layout",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 720401261,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Components.Layout.NavMenu",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManagement.Web.Components.Layout.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EmployeeManagement.Web.Components.Layout.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Layout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -734,38 +734,38 @@
         }
       },
       {
-        "HashCode": 1840150624,
+        "HashCode": -796684623,
         "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Layout.NavMenu",
+        "Name": "EmployeeManagement.Web.Components.App",
         "AssemblyName": "EmployeeManagement.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Layout.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Layout",
+          "Common.TypeName": "EmployeeManagement.Web.Components.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 720401261,
+        "HashCode": -1123392221,
         "Kind": "Components.Component",
-        "Name": "EmployeeManagement.Web.Components.Layout.NavMenu",
+        "Name": "EmployeeManagement.Web.Components.App",
         "AssemblyName": "EmployeeManagement.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EmployeeManagement.Web.Components.Layout.NavMenu"
+            "TagName": "EmployeeManagement.Web.Components.App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "EmployeeManagement.Web.Components.Layout.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "EmployeeManagement.Web.Components.Layout",
+          "Common.TypeName": "EmployeeManagement.Web.Components.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "EmployeeManagement.Web.Components",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -6383,6 +6383,43 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 1134466837,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Forms.ObjectGraphDataAnnotationsValidator",
+        "AssemblyName": "Microsoft.AspNetCore.Components.DataAnnotations.Validation",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ObjectGraphDataAnnotationsValidator"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.ObjectGraphDataAnnotationsValidator",
+          "Common.TypeNameIdentifier": "ObjectGraphDataAnnotationsValidator",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 492300737,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Forms.ObjectGraphDataAnnotationsValidator",
+        "AssemblyName": "Microsoft.AspNetCore.Components.DataAnnotations.Validation",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Forms.ObjectGraphDataAnnotationsValidator"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Forms.ObjectGraphDataAnnotationsValidator",
+          "Common.TypeNameIdentifier": "ObjectGraphDataAnnotationsValidator",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Forms",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
         }
       },
       {

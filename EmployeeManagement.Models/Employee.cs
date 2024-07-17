@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using EmployeeManagement.Models.CustomValidators;
 
 namespace EmployeeManagement.Models
 {
@@ -11,6 +12,7 @@ namespace EmployeeManagement.Models
     [Required(ErrorMessage = "Last Name must be provided")]
     public string LastName { get; set; }
     [EmailAddress]
+    [EmailDomainValidator(AllowedDomain = "msrd.com", ErrorMessage = "Only msrd.com is allowed")]
     public string Email { get; set; }
     public DateTime DateOfBirth { get; set; }
     public Gender Gender { get; set; }

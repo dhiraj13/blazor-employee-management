@@ -1,4 +1,5 @@
 using EmployeeManagement.Web.Components;
+using EmployeeManagement.Web.Models;
 using EmployeeManagement.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+builder.Services.AddAutoMapper(typeof(EmployeeProfile));
 builder.Services.AddHttpClient<IEmployeeService, EmployeeService>(client =>
 {
   client.BaseAddress = new Uri("http://localhost:5292/");

@@ -1,3 +1,4 @@
+using AutoMapper;
 using EmployeeManagement.Models;
 using EmployeeManagement.Web.Models;
 using EmployeeManagement.Web.Services;
@@ -22,21 +23,15 @@ namespace EmployeeManagement.Web.Components.Pages
     [Parameter]
     public string Id { get; set; }
 
+    [Inject]
+    public IMapper Mapper { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
       Employee = await EmployeeService.GetEmployee(int.Parse(Id));
       Departments = (await DepartmentService.GetDepartments()).ToList();
 
-      EditEmployeeModel.EmployeeId = Employee.EmployeeId;
-      EditEmployeeModel.FirstName = Employee.FirstName;
-      EditEmployeeModel.LastName = Employee.LastName;
-      EditEmployeeModel.Email = Employee.Email;
-      EditEmployeeModel.ConfirmEmail = Employee.Email;
-      EditEmployeeModel.DateOfBirth = Employee.DateOfBirth;
-      EditEmployeeModel.Gender = Employee.Gender;
-      EditEmployeeModel.PhotoPath = Employee.PhotoPath;
-      EditEmployeeModel.DepartmentId = Employee.DepartmentId;
-      EditEmployeeModel.Department = Employee.Department;
+      Mapper.Map(Employee, EditEmployeeModel);
     }
 
     protected void HandleValidSumbit()

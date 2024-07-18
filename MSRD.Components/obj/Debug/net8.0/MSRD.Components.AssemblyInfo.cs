@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MSRD.Components")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ced64b1abdc15c30ec88e3e1038d9716801ea89b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+249ec736a43b35dbe6c4b7ac7eefba2b3bd1b200")]
 [assembly: System.Reflection.AssemblyProductAttribute("MSRD.Components")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MSRD.Components")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

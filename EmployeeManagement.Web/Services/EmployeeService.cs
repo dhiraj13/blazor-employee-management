@@ -19,5 +19,20 @@ namespace EmployeeManagement.Web.Services
     {
       return await _httpClient.GetFromJsonAsync<Employee>($"api/employees/{id}");
     }
+
+    public async Task<Employee> UpdateEmployee(Employee updatedEmployee)
+    {
+      HttpResponseMessage response = await _httpClient.PutAsJsonAsync("api/employees", updatedEmployee);
+
+      if (response.IsSuccessStatusCode)
+      {
+        Employee updatedEmployeeResult = await response.Content.ReadFromJsonAsync<Employee>();
+        return updatedEmployeeResult;
+      }
+      else
+      {
+        throw new HttpRequestException($"Error updating employee: {response.ReasonPhrase}");
+      }
+    }
   }
 }

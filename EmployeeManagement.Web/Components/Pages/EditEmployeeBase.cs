@@ -26,6 +26,9 @@ namespace EmployeeManagement.Web.Components.Pages
     [Inject]
     public IMapper Mapper { get; set; }
 
+    [Inject]
+    public NavigationManager NavigationManager { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
       Employee = await EmployeeService.GetEmployee(int.Parse(Id));
@@ -34,9 +37,22 @@ namespace EmployeeManagement.Web.Components.Pages
       Mapper.Map(Employee, EditEmployeeModel);
     }
 
-    protected void HandleValidSumbit()
+    protected async void HandleValidSumbit()
     {
+      Mapper.Map(EditEmployeeModel, Employee);
+      try
+      {
+        var result = await EmployeeService.UpdateEmployee(Employee);
 
+        if (result != null)
+        {
+          NavigationManager.NavigateTo("/");
+        }
+      }
+      catch (HttpRequestException ex)
+      {
+        Console.WriteLine($"Error updating employee: {ex.Message}");
+      }
     }
   }
 }

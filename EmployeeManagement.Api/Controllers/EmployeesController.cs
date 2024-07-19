@@ -81,7 +81,7 @@ namespace EmployeeManagement.Api.Controllers
           return BadRequest();
         }
 
-        var emp = _employeeRepository.GetEmployeeByEmail(employee.Email);
+        var emp = await _employeeRepository.GetEmployeeByEmail(employee.Email);
 
         if (emp != null)
         {
@@ -97,7 +97,7 @@ namespace EmployeeManagement.Api.Controllers
       catch (Exception)
       {
         return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error retrieving data from the database");
+            "Error creating data from the database");
       }
     }
 
@@ -118,7 +118,7 @@ namespace EmployeeManagement.Api.Controllers
       catch (Exception)
       {
         return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error updating data");
+            "Error updating data");
       }
     }
 

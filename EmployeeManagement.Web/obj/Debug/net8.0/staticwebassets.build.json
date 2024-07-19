@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gM9dHfYMlTyv+UaJZFJuRUv7Is6+wc+unYB1/omQsWU=",
+  "Hash": "wKpWx/AH9QK5yhQFlhB8GQmdkbsKntEQrzLCz+aWXpA=",
   "Source": "EmployeeManagement.Web",
   "BasePath": "_content/EmployeeManagement.Web",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/mary.png"
+    },
+    {
+      "Identity": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/wwwroot/images/nophoto.jpg",
+      "SourceId": "EmployeeManagement.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/wwwroot/",
+      "BasePath": "_content/EmployeeManagement.Web",
+      "RelativePath": "images/nophoto.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/nophoto.jpg"
     },
     {
       "Identity": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/wwwroot/images/sam.jpg",

@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets/images/mary.png"
     },
     {
+      "Id": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/wwwroot/images/nophoto.jpg",
+      "PackagePath": "staticwebassets/images/nophoto.jpg"
+    },
+    {
       "Id": "/home/dhiraj/projects/dotnet/blazor/EmployeeManagement/EmployeeManagement.Web/wwwroot/images/sam.jpg",
       "PackagePath": "staticwebassets/images/sam.jpg"
     },

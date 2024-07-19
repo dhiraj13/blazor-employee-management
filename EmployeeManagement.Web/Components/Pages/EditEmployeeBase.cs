@@ -31,9 +31,24 @@ namespace EmployeeManagement.Web.Components.Pages
 
     protected override async Task OnInitializedAsync()
     {
-      Employee = await EmployeeService.GetEmployee(int.Parse(Id));
-      Departments = (await DepartmentService.GetDepartments()).ToList();
+      int.TryParse(Id, out int employeeId);
 
+      if (employeeId != 0)
+      {
+        Employee = await EmployeeService.GetEmployee(int.Parse(Id));
+      }
+      else
+      {
+        Employee = new Employee
+        {
+          DepartmentId = 1,
+          Department = new Department { DepartmentId = 1, DepartmentName = "IT" },
+          DateOfBirth = DateTime.Now,
+          PhotoPath = "images/nophoto.jpg"
+        };
+      }
+
+      Departments = (await DepartmentService.GetDepartments()).ToList();
       Mapper.Map(Employee, EditEmployeeModel);
     }
 
@@ -42,8 +57,15 @@ namespace EmployeeManagement.Web.Components.Pages
       Mapper.Map(EditEmployeeModel, Employee);
       try
       {
-        var result = await EmployeeService.UpdateEmployee(Employee);
-
+        Employee result = null;
+        if (Employee.EmployeeId != 0)
+        {
+          result = await EmployeeService.UpdateEmployee(Employee);
+        }
+        else
+        {
+          result = await EmployeeService.CreateEmployee(Employee);
+        }
         if (result != null)
         {
           NavigationManager.NavigateTo("/");
